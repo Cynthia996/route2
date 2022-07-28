@@ -1,0 +1,173 @@
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+
+.contentBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contentBox .formBox{
+  width: 100%;
+}
+.contentBox .formBox h2{
+  color: rgb(100, 162, 206);
+  font-weight: 600;
+  font-size: 1.5em;
+ 
+  margin-bottom: 20px;
+  border-bottom: 4px solid #45fcff;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+.contentBox .formBox .inputBox{
+  margin-bottom: 20px; 
+}
+.contentBox .formBox .inputBox span{
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color:rgb(81, 168, 195);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.contentBox .formBox .inputBox input{
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid rgb(70, 79, 239);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 30px;
+}
+.contentBox .formBox .inputBox input[type="button"].update{
+  background: #e6ff45;
+  color: #000000;
+  outline: none;
+  border: 1px solid black;
+  font-weight: 500;
+  cursor: pointer;
+}
+.contentBox .formBox .inputBox input[type="button"]
+{
+  background: #44a8a8;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.contentBox .formBox .inputBox input[type="button"]:hover{
+  background: #2aedf0;
+}
+
+
+
+@media (max-width: 768px)
+{
+  .imgBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .contentBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .contentBox .formBox{
+    width: 100%;
+    padding: 40px;
+    margin: 50px;
+    background: rgb(255 255 255 / 0.7);
+  }
+
+  .contentBox .formBox input[type="button"]{
+    
+      background: #44a8a8;
+      color: #fff;
+      outline: none;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    
+  }
+
+
+
+.tableBox{
+    margin-top: 20px;
+  
+}
+
+
+ table{
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 10px;
+    border-radius: 15PX;
+    /* border: 1px solid black; */
+    /* border-spacing: 50px; */
+} 
+
+td .update{
+  background: #59d406;
+  color: #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 100%;
+  font-weight: 400;
+
+  border: 1px solid #607d8b;
+
+}
+
+
+td .delete{
+  background: #fa3f3f;
+  color: #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid #607d8b;
+}
+

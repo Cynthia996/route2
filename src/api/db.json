@@ -1,0 +1,50 @@
+{
+  "productos": [
+    {
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "producto": "Remeras",
+      "marca": "Winter",
+      "proveedor": "El Faro",
+      "precio": "900",
+      "id": 3
+    },
+    {
+      "producto": "Sweater",
+      "marca": "Worren",
+      "proveedor": "Vanlon",
+      "precio": "2500",
+      "id": 4
+    },
+    {
+      "producto": "Camisas",
+      "marca": "Silver",
+      "proveedor": "Sunset Hnos",
+      "precio": "1800",
+      "id": 5
+    },
+    {
+      "producto": "Buzos",
+      "marca": "Iñaki",
+      "proveedor": "Urbanwear",
+      "precio": "3000",
+      "id": 6
+    },
+    {
+      "producto": "Camperas",
+      "marca": "Gabucci",
+      "proveedor": "Posto Five",
+      "precio": "4500",
+      "id": 7
+    },
+    {
+      "producto": "Jeans",
+      "marca": "Montana",
+      "proveedor": "Bluest",
+      "precio": "5000",
+      "id": 8
+    }
+  ]
+}
